@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    p{
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+        font-size: 1.1rem;
+    }
+    figure{
+        margin: 0 !important;
+    }
+    pre{
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    td{
+        padding: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+    @media (min-width: 1024px) {
+        #middle-box{
+            min-width: 56rem;
+        }
+    
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hexo - Categories</title>
+    <title>Hexo - gallery</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/tailwind.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/toc.css">
     
 <header class="bg-black text-hacker-white py-4 font-dos font-extrabold">
     <div class="container mx-auto flex items-center justify-between space-x-8">
@@ -147,164 +179,64 @@
 
 
 <meta name="generator" content="Hexo 8.1.2"></head>
+<body class="bg-black text-hacker-color3 container mx-auto" style="overflow-x:hidden">
+    <!-- 文章标题 -->
+    <h1 class="text-5xl text-hacker-color1 font-bold font-dos my-6 text-center">gallery</h1>
 
-<body class="bg-black container mx-auto">
-    <h1 class="text-4xl text-hacker-color1 font-bold font-dos">Categories</h1>
-    <hr class="border-t-2 border-line-color border-dashed">
-    <div class="container mx-auto flex bg-black min-h-screen">
-        <div class="w-full mt-8">
-            <ul class="space-y-2">
-                
-                    
-                        <!-- 父分类 -->
-                        <li>
-                            <a href="/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/" class="text-hacker-color3 text-xl font-bold hover:text-white hover:-translate-y-1 duration-150">
-                                生活随笔 <sub>1</sub>
-                            </a>
-                        </li>
-                        
-                        <!-- 子分类 -->
-                        
-                            
-                        
-                    
-                
-            </ul>
+    <!-- 发布时间 -->
+    <p class="text-hacker-color3 text-center text-sm mb-4">
+        2026-09-29
+    </p>
+
+    <!-- 文章内容 -->
+    <div id="article-content" class="article-entry prose prose-invert mx-auto max-w-4xl leading-relaxed highlight" style="display: flex;">
+        <div id="middle-box">
+            <h2 id="🎭-Cosplay-作品集"><a href="#🎭-Cosplay-作品集" class="headerlink" title="🎭 Cosplay 作品集"></a>🎭 Cosplay 作品集</h2><blockquote>
+<p>妆造、外景、角色记录</p>
+</blockquote>
+<div class="gallery-grid">
+<div class="gallery-item">
+< img src="/images/sunquan-cos.jpg" alt='孙权兔男郎私设'>
+</div>
+<!-- 新增图片在这里复制上面这一段，修改图片文件名 -->
+</div>
+
+<h2 id="🌿-生活随拍"><a href="#🌿-生活随拍" class="headerlink" title="🌿 生活随拍"></a>🌿 生活随拍</h2><blockquote>
+<p>校园日常、碎片记录</p>
+</blockquote>
+<div class="gallery-grid">
+<!-- 放生活照片 -->
+</div>
+
+<h2 id="📖-学习碎片"><a href="#📖-学习碎片" class="headerlink" title="📖 学习碎片"></a>📖 学习碎片</h2><blockquote>
+<p>笔记实拍、课堂记录</p>
+</blockquote>
+<div class="gallery-grid">
+<!-- 放学习照片 -->
+</div>
+
         </div>
         
-    <div class="w-1/3 hidden md:block space-y-4 mt-8">
-      
+            <div class="post-container">
+            <aside class="toc-container">
+                <button class="toc-toggle">文章目录</button>
+                <nav class="toc" id="toc"></nav>
+            </aside>
+        </div>
         
-          <!-- 搜索框 -->
-          <input type="text" id="search-input" placeholder="Search..." class="w-full p-2.5 text-lg mb-5 border-2 border-line-color rounded bg-black text-white placeholder-gray-400"/>
-          <div id="search-results"></div>
-        
-  
-        
-  
-        
-  
-        
-  
-        
-  
-      
-        
-  
-        
-          <!-- 公告栏 -->
-          <div class=" text-white p-4 rounded-md border-2 border-dashed border-line-color mb-4">
-            <h3 class="font-bold text-lg text-hacker-color1">Notice</h3>
-            <p class="mt-4"> 🎉 你的未来不是迷茫！</br> 而是前路漫漫亦灿灿</p>
-          </div>
-        
-  
-        
-  
-        
-  
-        
-  
-      
-        
-  
-        
-  
-        
-          <!-- 分类部分 -->
-          <h3 class="text-hacker-color1 font-bold text-lg">Categories</h3>
-          <div>
-            
-              <a href="http://Doki-ctrl.github.io/categories/生活随笔/" class="text-hacker-color3 hover:text-white">
-                生活随笔 (1)
-              </a>
-              <br />
-            
-            
-          </div>
-          <hr class="w-full border-t-2 border-line-color border-dashed">
-        
-  
-        
-  
-        
-  
-      
-        
-  
-        
-  
-        
-  
-        
-          <!-- 标签部分 -->
-          <h3 class="text-hacker-color1 font-bold text-lg">Tags</h3>
-          <div class="flex flex-wrap justify-start items-center">
-            
-              <a href="http://Doki-ctrl.github.io/tags/Study/" class="text-hacker-color3 hover:bg-hacker-hover-color hover:text-white block border border-hacker-color3 hover:border-dotted rounded-sm py-0.5 px-2 mr-4 mb-2">
-                Study <sub>1</sub>
-              </a>
-              <br />
-            
-            
-          </div>
-          <hr class="w-full border-t-2 border-line-color border-dashed">
-        
-  
-        
-  
-      
-        
-  
-        
-  
-        
-  
-        
-  
-        
-          <!-- 链接部分 -->
-          <h3 class="text-hacker-color1 font-bold text-lg">Links</h3>
-          <div>
-            
-              <a href="https://space.bilibili.com/3494379247372471?spm_id_from=333.1007.0.0" target="_blank" class="text-hacker-color3 hover:text-white">
-                b站主页
-              </a>
-              <br />
-            
-              <a href="https://github.com/Doki-ctrl" target="_blank" class="text-hacker-color3 hover:text-white">
-                github主页
-              </a>
-              <br />
-            
-              <a href="mailto:1617695762@qq.com" target="_blank" class="text-hacker-color3 hover:text-white">
-                电子邮箱
-              </a>
-              <br />
-            
-              <a href="https://weibo.com/u/7720911550" target="_blank" class="text-hacker-color3 hover:text-white">
-                Weibo
-              </a>
-              <br />
-            
-          </div>
-          <hr class="w-full border-t-2 border-line-color border-dashed">
-        
-  
-      
     </div>
-  
-  
-  
-  
-  
 
 
-
-
-
-
+    <!-- 返回主页链接 -->
+    <div class="text-center my-8">
+        <a href="/" class="text-hacker-color1 underline hover:text-hacker-color2">← Back to Home</a>
     </div>
+
+      
+      <script src="/js/toc.js"></script>  <!-- 引入 TOC 逻辑 -->
+      
+      
+
     <footer class="bg-black text-gray-400 py-4">
  <div class="container mx-auto text-center">
   <p>© <span id="current-year"></span>  John Doe 
@@ -326,6 +258,7 @@ svg: {
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
 
 
 </body>
